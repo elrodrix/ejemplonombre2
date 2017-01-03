@@ -1,16 +1,16 @@
-var restify = require('restify');
+xvar restify = require('restify');
 var mysql = require('mysql');
 var connection = mysql.createConnection({
   host     : '172.16.11.23',
   user     : 'contactos',
   password : '3sdagContactos',
-  database : 'contactos22'
+  database : 'contactos2222'
 });
 
 
 var port = 8088;
 var server = restify.createServer({
-	name: "ServidorContacto22"
+	name: "ServidorContacto22123"
 });
 
 
