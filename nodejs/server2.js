@@ -1,7 +1,7 @@
 var restify = require('restify');
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-  host     : '172.16.11.12',
+  host     : '172.16.11.23',
   user     : 'contactos',
   password : '3sdagContactos',
   database : 'contactos22'
@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 
 var port = 8088;
 var server = restify.createServer({
-	name: "ServidorContacto"
+	name: "ServidorContacto22"
 });
 
 
