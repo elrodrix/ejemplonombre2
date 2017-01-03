@@ -11,10 +11,10 @@ connection = mysql.createConnection({
 */
 
 var ip_addr = '127.0.0.1';
-var port = '8088';
+var port = '8080';
 
 var server = restify.createServer({
-	name: "usuarios"
+	name: "usuarios2"
 });
 
 

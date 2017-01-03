@@ -1,10 +1,10 @@
 var restify = require('restify');
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-  host     : '172.16.11.72',
+  host     : '172.16.11.12',
   user     : 'contactos',
   password : '3sdagContactos',
-  database : 'contactos'
+  database : 'contactos22'
 });
 
 
